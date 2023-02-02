@@ -10,7 +10,7 @@ public class Calculator {
                 System.out.print("Число 1 = ");
                 if (scanner.hasNextInt()) {
                     int operand1 = scanner.nextInt();//считывает число 1
-                        System.out.println("Арифметическое действие: сложение, вычетание, деление или умножение? ");
+                        System.out.println("Арифметическое действие 1: сложение, вычетание, деление или умножение? ");
                     char operation = scanner.next().charAt(0);//считываем строку
                         System.out.print("Число 2 = ");
                     if (scanner.hasNextDouble()) {
